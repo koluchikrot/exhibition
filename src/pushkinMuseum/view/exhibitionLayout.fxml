@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pushkinMuseum.view.ExhibitionLayoutController">
+    <children>
+      <Label fx:id="hallDescriptionLabel" layoutX="476.0" layoutY="129.0" prefHeight="201.0" prefWidth="221.0" text="Label" textAlignment="CENTER" AnchorPane.bottomAnchor="160.0" AnchorPane.topAnchor="129.0" />
+      <TableView fx:id="hallList" layoutX="54.0" layoutY="67.0" prefHeight="383.0" prefWidth="378.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="34.0" AnchorPane.topAnchor="30.0">
+        <columns>
+          <TableColumn fx:id="hallNameColumn" prefWidth="373.0" text="Выставки" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</AnchorPane>
