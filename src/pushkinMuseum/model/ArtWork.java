@@ -1,48 +1,61 @@
 package pushkinMuseum.model;
 
-public class ArtWork extends Exhibit {
-    private String artist;
-    private int year;
-    private int length;
-    private int width;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
-    public ArtWork(String name, String exhibitionHall, String description, boolean originality, String imagePath, String artist, int year, int length, int width) {
+public class ArtWork extends Exhibit {
+    private StringProperty artist;
+    private StringProperty year;
+    private IntegerProperty length;
+    private IntegerProperty width;
+
+    public ArtWork(String name, String exhibitionHall, String description, boolean originality, String imagePath, String artist, String year, int length, int width) {
         super(name, exhibitionHall, description, originality, imagePath);
-        this.artist = artist;
-        this.year = year;
-        this.length = length;
-        this.width = width;
+        this.artist = new SimpleStringProperty(artist);
+        this.year = new SimpleStringProperty(year);
+        this.length = new SimpleIntegerProperty(length);
+        this.width = new SimpleIntegerProperty(width);
     }
 
     public String getArtist() {
-        return artist;
+        return artist.get();
     }
 
     public void setArtist(String artist) {
-        this.artist = artist;
+        this.artist.set(artist);
     }
 
-    public int getYear() {
-        return year;
+    public String getYear() {
+        return year.get();
     }
 
-    public void setYear(int year) {
-        this.year = year;
+    public void setYear(String year) {
+        this.year.set(year);
     }
 
     public int getlength() {
-        return length;
+        return length.get();
     }
 
     public void setlength(int length) {
-        this.length = length;
+        this.length.set(length);
     }
 
     public int getWidth() {
-        return width;
+        return width.get();
     }
 
     public void setWidth(int width) {
-        this.width = width;
+        this.width.set(width);
     }
+
+    public StringProperty artistProperty(){ return artist; }
+
+    public StringProperty yearProperty(){ return year; }
+
+    public IntegerProperty lengthProperty(){ return length; }
+
+    public IntegerProperty widthProperty(){ return width; }
 }

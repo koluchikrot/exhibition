@@ -37,9 +37,9 @@ public class Main<T> extends Application {
         //test data
         ObservableList<Painting> hall1 = FXCollections.observableArrayList();
         hall1.add(new Painting("Рождение Венеры", "hall1", "An incredible painting", true, "-",
-                "Боттичелли", 1486, 2785, 1725, new String[2]));
+                "Боттичелли", "1486", 2785, 1725, new String[2]));
         hall1.add(new Painting("Бичевание Христа", "hall1", "An incredible painting 2", true, "file:/Users/koluchikrot/IdeaProjects/Exhibition/src/pushkinMuseum/resources/test1.JpG",
-                "Иоганн Кербеке", 1457, 930, 650, new String[2]));
+                "Иоганн Кербеке", "1457", 930, 650, new String[2]));
 
         exhibitionData.add(new Exhibition("Картины", hall1, "Выставка картин эпохи Возрождения"));
     }

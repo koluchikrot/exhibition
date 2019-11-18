@@ -1,29 +1,35 @@
 package pushkinMuseum.model;
 
-public class Sculpture extends ArtWork {
-    private String material;
-    private String height;
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
-    public Sculpture(String name, String exhibitionHall, String description, boolean originality, String imagePath, String artist, int year, int length, int width, String material, String height) {
+public class Sculpture extends ArtWork {
+    private StringProperty material;
+    private IntegerProperty height;
+
+    public Sculpture(String name, String exhibitionHall, String description, boolean originality, String imagePath, String artist, String year, int length, int width, String material, int height) {
         super(name, exhibitionHall, description, originality, imagePath, artist, year, length, width);
-        this.material = material;
-        this.height = height;
+        this.material = new SimpleStringProperty(material);
+        this.height = new SimpleIntegerProperty(height);
     }
 
     public String getMaterial() {
-        return material;
+        return material.get();
     }
 
     public void setMaterial(String material) {
-        this.material = material;
+        this.material.set(material);
     }
 
-    public String getHeight() {
-        return height;
+    public int getHeight() {
+        return height.get();
     }
 
-    public void setHeight(String height) {
-        this.height = height;
-    }
+    public void setHeight(int height) { this.height.set(height); }
 
+    public StringProperty materialProperty() { return material; }
+
+    public IntegerProperty heightProperty() { return height; }
 }

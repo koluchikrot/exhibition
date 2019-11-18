@@ -8,8 +8,10 @@ import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import pushkinMuseum.Main;
+import pushkinMuseum.model.ArtWork;
 import pushkinMuseum.model.Exhibit;
 import pushkinMuseum.model.Exhibition;
+import pushkinMuseum.model.Painting;
 
 public class ItemLayoutController<T> {
 
@@ -21,6 +23,9 @@ public class ItemLayoutController<T> {
 
     @FXML
     private TextArea descriptionField;
+
+    @FXML
+    private Label authorField;
 
     @FXML
     private Button backButton;
@@ -52,6 +57,11 @@ public class ItemLayoutController<T> {
             }
             nameField.setText(exhibit1.getName());
             descriptionField.setText(exhibit1.getDescription());
+        }
+
+        if (exhibit instanceof ArtWork){
+            authorField.setText(((ArtWork) exhibit).getArtist());
+            nameField.setText(nameField.getText() + ". " + ((ArtWork) exhibit).getYear());
         }
     }
     @FXML

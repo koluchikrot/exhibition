@@ -39,7 +39,7 @@
                   <ImageView fx:id="imageView" fitHeight="426.0" fitWidth="442.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="19.0" />
                   <Label layoutX="329.0" layoutY="425.0" prefHeight="37.0" prefWidth="108.0" text="размер + материалы" />
                   <Label fx:id="nameField" layoutX="28.0" layoutY="493.0" prefHeight="23.0" prefWidth="404.0" text="Название" />
-                  <Label layoutX="28.0" layoutY="516.0" prefHeight="31.0" prefWidth="401.0" text="Автор" />
+                  <Label fx:id="authorField" layoutX="28.0" layoutY="516.0" prefHeight="31.0" prefWidth="401.0" text="Автор" />
                   <TextArea fx:id="descriptionField" editable="false" layoutX="22.0" layoutY="483.0" prefHeight="103.0" prefWidth="404.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="22.0" AnchorPane.rightAnchor="35.0" />
                </children>
             </AnchorPane>
