@@ -18,6 +18,7 @@ import pushkinMuseum.view.HallLayoutController;
 import pushkinMuseum.view.ItemLayoutController;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 public class Main<T> extends Application {
     private Stage primaryStage;
@@ -36,10 +37,13 @@ public class Main<T> extends Application {
     public Main() {
         //test data
         ObservableList<Painting> hall1 = FXCollections.observableArrayList();
+        ArrayList<String> materials1 = new ArrayList<>();
+        materials1.add("Дерево");
+        materials1.add("Темпера");
         hall1.add(new Painting("Рождение Венеры", "hall1", "An incredible painting", true, "-",
-                "Боттичелли", "1486", 2785, 1725, new String[2]));
+                "Боттичелли", "1486", 2785, 1725, materials1));
         hall1.add(new Painting("Бичевание Христа", "hall1", "An incredible painting 2", true, "file:/Users/koluchikrot/IdeaProjects/Exhibition/src/pushkinMuseum/resources/test1.JpG",
-                "Иоганн Кербеке", "1457", 930, 650, new String[2]));
+                "Иоганн Кербеке", "1457", 930, 650, new ArrayList<String>()));
 
         exhibitionData.add(new Exhibition("Картины", hall1, "Выставка картин эпохи Возрождения"));
     }
@@ -58,7 +62,7 @@ public class Main<T> extends Application {
         try {
             // Загружаем корневой макет из fxml файла.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("view/RootLayout.fxml"));
+            loader.setLocation(Main.class.getResource("view/rootLayout.fxml"));
             rootLayout = loader.load();
 
             // Отображаем сцену, содержащую корневой макет.
@@ -98,7 +102,6 @@ public class Main<T> extends Application {
     }
 
     public void initExhibitLayout(T exhibit, Exhibition<T> exhibition){
-        //still not null
         try {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(Main.class.getResource("view/itemLayout.fxml"));
