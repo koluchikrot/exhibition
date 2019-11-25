@@ -3,14 +3,11 @@ package pushkinMuseum;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import javafx.collections.ObservableMap;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import pushkinMuseum.model.Exhibit;
 import pushkinMuseum.model.Exhibition;
 import pushkinMuseum.model.Painting;
 import pushkinMuseum.view.ExhibitionLayoutController;
@@ -62,7 +59,8 @@ public class Main<T> extends Application {
         try {
             // Загружаем корневой макет из fxml файла.
             FXMLLoader loader = new FXMLLoader();
-            loader.setLocation(Main.class.getResource("view/rootLayout.fxml"));
+            loader.setLocation(Main.class.getResource("view/RootLayout.fxml"));
+            System.out.println(loader.getLocation());
             rootLayout = loader.load();
 
             // Отображаем сцену, содержащую корневой макет.
