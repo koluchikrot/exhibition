@@ -1,29 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13cf09ba-70c0-43d4-a0f1-a7e1656239eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pushkinMuseum/database/data.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pushkinMuseum/model/ExhibitListWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pushkinMuseum/model/ExhibitionDataWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/exhibition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/exhibition.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="13cf09ba-70c0-43d4-a0f1-a7e1656239eb" name="Default Changelist" comment="New exhibition">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pushkinMuseum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pushkinMuseum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/AncientPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/AncientPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/ArtWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/ArtWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Exhibit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Exhibit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Exhibition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Exhibition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Painting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Painting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Sculpture.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/model/Sculpture.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/ExhibitionLayoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/ExhibitionLayoutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/HallLayoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/HallLayoutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/ItemLayoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/ItemLayoutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/RootLayoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pushkinMuseum/view/RootLayoutController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +12,9 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -143,7 +126,8 @@
       <workItem from="1575446174701" duration="259000" />
       <workItem from="1575966936273" duration="768000" />
       <workItem from="1576169741249" duration="89000" />
-      <workItem from="1576169935088" duration="4126000" />
+      <workItem from="1576169935088" duration="4627000" />
+      <workItem from="1576226388767" duration="1070000" />
     </task>
     <servers />
   </component>
@@ -173,31 +157,43 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New exhibition" />
+    <option name="LAST_COMMIT_MESSAGE" value="New exhibition" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Project_Structure" timestamp="1576181234774">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1576181234774" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576181541145">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576226313947">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576181541144" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1576181581232">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576226313947" />
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1576226166533">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576181581232" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1576181581230">
+    <state x="457" y="241" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1576226166533" />
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1576227458098">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576181581230" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1576181581229">
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576227458098" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1576227458169">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576181581229" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1576181581231">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576227458169" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1576227458167">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576181581231" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576227458167" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1576227458167">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576227458167" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1576227458168">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576227458168" />
     <state x="381" y="179" key="RollbackChangesDialog" timestamp="1576174917175">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -206,9 +202,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="152" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576181416972" />
-    <state x="399" y="250" key="com.intellij.ide.util.TipDialog" timestamp="1576169993730">
-      <screen x="0" y="23" width="1440" height="790" />
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1576226388733">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="399" y="259" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1576226388733" />
     <state x="399" y="250" key="com.intellij.ide.util.TipDialog/0.23.1440.790@0.23.1440.790" timestamp="1576169993730" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576181052517">
       <screen x="0" y="0" width="1440" height="900" />
@@ -216,7 +213,7 @@
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1576181052517" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/exhibition$Main.ic" NAME="Main Coverage Results" MODIFIED="1576181581181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/exhibition$Main.ic" NAME="Main Coverage Results" MODIFIED="1576226210710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>pushkinMuseum.*</FILTER>
     </SUITE>
   </component>
