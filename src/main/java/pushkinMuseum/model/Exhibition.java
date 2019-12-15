@@ -43,4 +43,8 @@ public class Exhibition<T> {
     public StringProperty nameProperty() {
         return name;
     }
+
+    public void searchByPicture(String path){
+        //DoGSIFTEngine engine = new DoGSIFTEngine();
+    }
 }
